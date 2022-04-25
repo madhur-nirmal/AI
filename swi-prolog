@@ -79,3 +79,14 @@ X = jess .
 
 ?- sister_of(X,lily).
 X = jess .
+
+
+
+program: 
+parent(yash,divya).
+parent(snehal,sonali).
+parent(amar,abhishek).
+parent(divya,akanksha).
+parent(sonali,atharva).
+parent(chivam,snehal).
+grandparent(X,Z):- parent(X,Y),parent(Y,Z).
