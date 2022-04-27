@@ -1,0 +1,6 @@
+BFS
+DFS
+a*
+swi-prolog
+minmax
+water-jug
